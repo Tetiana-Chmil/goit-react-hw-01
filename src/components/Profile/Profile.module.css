@@ -1,0 +1,31 @@
+.profile {
+    border: 2px solid #212121;
+    background-color: #fafafa;
+    border-radius: 10px;
+    width: 465px;
+    margin-inline: auto;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.profile__inner {
+    padding-inline: 2rem;
+    padding-block: 2rem 0;
+}
+
+.profile__avatar {
+    width: 200px;
+    border-radius: 50%;
+    background-color: #2a2a2a;
+    margin-bottom: 20px;
+}
+
+.profile__stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile__stats li {
+    display: flex;
+    flex-direction: column;
+}
